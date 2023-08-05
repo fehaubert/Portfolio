@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ------------------HEADER------------------- */
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 8vh;
+}
+
+header p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+#especial {
+    text-decoration: underline;
+}
+
+/* --------------------MAIN--------------------- */
+
+main h2 {
+    text-align: center;
+    margin: 15px 0px 0px 0px;
+    font-size: 2.0rem;
+    text-transform: uppercase;
+}
+
+.instruções{
+    text-align: center;
+    margin: 5px 0px 15px 0px;
+}
+
+.titulos-sites{
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 1.5rem;
+}
+
+.sites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    text-align: center;
+}
+
+main a {
+    width: 20vw;
+    height: 13vw;
+    box-shadow: 2px 4px 10px black;
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+main a h4{
+    padding-top: 13px;
+    font-size: 1.1rem;
+}
+
+main a p{
+    font-size: 0.9rem;
+    padding: 15px 30px 30px 30px;
+}
+
+
+/* --------------------------FOOTER--------------------------------- */
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 6vh;
+}
+
+footer p {
+    color: white;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ------------------HEADER------------------- */
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 8vh;
+}
+
+header p {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+#especial{
+    text-decoration: underline;
+}
+
+/* --------------------MAIN--------------------- */
+
+main {
+    height: 90%;
+}
+
+.primeira-sessao {
+    display: grid;
+    grid-template-areas: "foto descrição";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    box-shadow: 2px 4px 10px black;
+    margin: 30px 30px 18px 30px;
+    height: 60vh;
+    align-items: center;
+}
+
+.primeira-sessao img {
+    grid-area: foto;
+    max-width: 70vh;
+    padding-left: 24%;
+}
+
+.descricao {
+    grid-area: descrição;
+    padding-right: 24%;
+}
+
+#nome {
+    padding-bottom: 30px;
+}
+
+.segunda-sessao {
+    display: grid;
+    grid-template-areas: "habilidades habilidades" "quadrado1 quadrado2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    padding: 20px;
+}
+
+.segunda-sessao h3 {
+    grid-area: habilidades;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.primeiro-quadrado {
+    margin-left: 35%;
+}
+
+.segundo-quadrado {
+    margin-left: 15%;
+}
+
+.primeiro-quadrado h4,
+.segundo-quadrado h4 {
+    padding-bottom: 15px;
+}
+
+.primeiro-quadrado,
+.segundo-quadrado {
+    box-shadow: 2px 4px 10px black;
+    max-width: 20vw;
+    max-height: 18vw;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* --------------FOOTER------------------ */
+
+footer {
+    margin-top: 13px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+    align-items: center;
+}
